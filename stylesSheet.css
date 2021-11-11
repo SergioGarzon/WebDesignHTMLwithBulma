@@ -1,5 +1,9 @@
 .headerPage {
-    background: linear-gradient(2deg, white, black);
+    background: linear-gradient(to right, #00008B 0%, #191970 100%);
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.upText {
+    text-align: right;
 }
