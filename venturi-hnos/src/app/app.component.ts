@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'venturi-hnos';
+  title = 'El sitio de Venturi Hnos';
+  saludo = 'Saludo desde Angular';
 }
