@@ -1,21 +1,30 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("./Resources/Fonts/BorelandDemoRegular.ttf");
+}
+  
+html {
+    height: 100%;
+}
+
 .headData {
     background-color: #043b6b;
     color: white;
     width: 100%;
-    height: 170px;
-    justify-content: center;
+    height: 10.625rem;
+    justify-content: center;    
 }
 
 .titleHead {
-    font-size: 75px;
-    font-family: Arial, 'Arial Black', sans-serif;
+    font-size: 5rem;
+    font-family: myFirstFont;
 }
 
 .loginBox {
     background-image: url("./Resources/loginBetechManuales.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 40.625rem;
     width: 100%;
 }
 
@@ -23,6 +32,7 @@
     background-color: black;
     color: white;
     width: 100%;
-    height: 70px;
+    height: 93px;
     justify-content: center;
 }
+
