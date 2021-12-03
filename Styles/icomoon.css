@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../Resources/fontsIcomoon/icomoon.eot?10gmo6');
+  src:  url('../Resources/fontsIcomoon/icomoon.eot?10gmo6#iefix') format('embedded-opentype'),
+    url('../Resources/fontsIcomoon/icomoon.ttf?10gmo6') format('truetype'),
+    url('../Resources/fontsIcomoon/icomoon.woff?10gmo6') format('woff'),
+    url('../Resources/fontsIcomoon/icomoon.svg?10gmo6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e901";
+}
+.icon-drive:before {
+  content: "\e963";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-user-login:before {
+  content: "\e975";
+}
+.icon-down:before {
+  content: "\ea36";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-mail3:before {
+  content: "\ea85";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
