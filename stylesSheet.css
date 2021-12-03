@@ -15,7 +15,15 @@ html {
 
 .headerData {
   background-color: #043b6b;
-  color: white;
+  /*
+    Otra forma de hacer colores en HTML
+    rgb(0, 59, 107) Rojo, Verde, Azul siendo el color más oscuro el 220
+    background-color: rgb(220, 220, 220);
+
+    background-color: hsla(220, 220, 20, 1);
+  */  
+  
+  color: hsl(0, 0%, 100%);
 }
 
 .grid-container {
@@ -95,8 +103,6 @@ body {
     }
 }
 
-
-
 @media (min-width: 200px) {
     .grid-container {
         grid-template-columns: 100px auto;
@@ -111,8 +117,6 @@ body {
     .titleHead {
         font-size: 5rem;
     }
-
-
 }
 
 
